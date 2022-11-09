@@ -31,14 +31,30 @@
     <!-- header -->
     <header>
       <div class="container">
-        <h1><img src="./img/ZOKA.png" alt="LOGO" /></h1>
-        <ul>
+        <h1><img id="h1_logo1" src="./img/ZOKA.png" alt="LOGO" /></h1>
+        <h1><img id="h1_logo" src="./img/ZOKA.png" alt="LOGO" /></h1>
+        <ul id="ul">
           <li><a href="#">Home</a></li>
           <li><a href="#">Pages</a></li>
           <li><a href="#">Photograpy</a></li>
           <li><a href="#">Photoshoots</a></li>
         </ul>
         <div class="youtube">Youtube <i class="fa-brands fa-youtube"></i></div>
+        <!-- 햄버거 -->
+        <input type="checkbox" id="trigger" />
+        <label for="trigger">
+          <span class="span"></span>
+          <span class="span"></span>
+          <span class="span"></span>
+        </label>
+        <div class="sidebar">
+          <ul id="blink_ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Photograpy</a></li>
+            <li><a href="#">Photoshoots</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- section1 -->
@@ -215,5 +231,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
